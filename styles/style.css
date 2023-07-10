@@ -168,17 +168,20 @@
     text-align: center;
     align-items: center;
 }
-.discount-container{
+
+.discount-container {
     margin-right: 180px;
     padding: 230px 0px 180px 0px;
 }
-.discount-title{
+
+.discount-title {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
-.discount-details{
+
+.discount-details {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -186,6 +189,74 @@
     font-weight: 400;
     margin: 25px 0;
 }
-.discount-img{
+
+.discount-img {
     padding: 100px 0px;
+}
+
+/* Social Section */
+
+.social-content {}
+
+.social-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 130px;
+}
+
+.social-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px 50px 0px;
+}
+
+.social-img-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 240px;
+}
+
+.social-img {
+    /* width: 342px;
+    height: 396px; */
+}
+
+/* Latest Deals Section */
+.latest-deal-section {
+    width: 1440px;
+    height: 449px;
+    background-image: url(../images/rectangle\ 9.png);
+    background-repeat: no-repeat;
+    margin: 130px 240px;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.deal-details {
+    padding: 18px 0px 50px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+input{
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+
 }
