@@ -21,11 +21,12 @@
 }
 
 .primary-btn {
-    padding: 20px 43px;
+    padding: 15px 30px;
     background: #E55473;
     border-radius: 5px;
     border: 0px;
     color: aliceblue;
+    font-size: larger;
 }
 
 /* NavBar Section */
