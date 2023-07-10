@@ -1,0 +1,191 @@
+/* Universal */
+* {
+    margin: 0px;
+}
+
+* {
+    padding: 0px;
+}
+
+/* Google Font Universal */
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-color {
+    color: #E55473;
+}
+
+.primary-btn {
+    padding: 20px 43px;
+    background: #E55473;
+    border-radius: 5px;
+    border: 0px;
+    color: aliceblue;
+}
+
+/* NavBar Section */
+
+.nav-container {
+    background: rgba(213, 59, 93, 0.39);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0px;
+}
+
+.nav-title {
+
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.banner-setion {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    padding: 0px 240px;
+}
+
+.banner-content {}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.banner-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+
+}
+
+.banner-img {
+
+    margin-top: 140px;
+
+}
+
+/* Featured Flowers Section */
+.featured-content {
+    padding-top: 180px;
+    text-align: center;
+}
+
+.featured-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0px 50px 0px;
+}
+
+.featured-img-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 240px;
+
+}
+
+.featured-img-card {
+    width: 370px;
+    height: 370px;
+    ;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    padding: 110px 45px 0px 45px;
+}
+
+.featured-img {
+
+    height: 370px;
+    width: 370px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.featured-img-title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 5px;
+}
+
+.service-section {
+
+    width: 1430px;
+    height: 200px;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+/* Discount Section */
+.discount-section {
+    display: flex;
+    padding: 0px 425px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    align-items: center;
+}
+.discount-container{
+    margin-right: 180px;
+    padding: 230px 0px 180px 0px;
+}
+.discount-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discount-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.discount-img{
+    padding: 100px 0px;
+}
