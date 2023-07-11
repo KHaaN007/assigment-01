@@ -223,7 +223,9 @@
     justify-content: space-around;
     padding: 0px 240px;
 }
-
+.social-img{
+    border-radius: 5px;
+}
 /* Latest Deals Section */
 .latest-deal-section {
     width: 1440px;
