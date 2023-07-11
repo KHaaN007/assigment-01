@@ -55,6 +55,8 @@
     font-size: 22px;
 }
 
+/* Banner Section */
+
 .banner-setion {
     display: flex;
     height: 100vh;
@@ -89,7 +91,8 @@
 }
 
 /* Featured Flowers Section */
-.featured-content {
+
+/* .featured-content {
     padding-top: 180px;
     text-align: center;
 }
@@ -144,8 +147,38 @@
     line-height: 35px;
     text-decoration-line: underline;
     padding-top: 5px;
+} */
+
+/* Featured Flowers Section -02 */
+
+.featured-content {
+    padding-top: 180px;
+    text-align: center;
 }
 
+.flower-card-1 {
+    width: 464px;
+
+    background: #F2DEE7;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 110px 0 0 77px;
+
+}
+
+.card-1-img {}
+
+.flower-card-2 {
+    width: 464px;
+    background: #DAEFF1;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 50px 47px 118px 47px;
+}
+
+/* Service Section */
 .service-section {
 
     width: 1430px;
@@ -266,7 +299,7 @@ input {
 
 /* Footer Section */
 .footer-section {
-    width: 1922px;
+    width: 1900px;
     height: 449px;
     background: #111010;
 }
@@ -279,9 +312,7 @@ input {
 .footer-details {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     padding: 24px 0px;
 }
@@ -289,9 +320,6 @@ input {
 .copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family: Lato;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
